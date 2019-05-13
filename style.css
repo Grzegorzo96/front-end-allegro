@@ -1,0 +1,24 @@
+.titleArticle {
+    color: blue;
+    text-align: center;
+}
+
+.subtitleArticle {
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+    color: green;
+}
+
+.paragraph {
+    margin: 20px;
+}
+
+.paragraph2 {
+    font-style: italic;
+}
+
+.paragraph:first-letter, .paragraph2:first-letter {
+    font-size: 18px;
+    font-weight: bold;
+}
