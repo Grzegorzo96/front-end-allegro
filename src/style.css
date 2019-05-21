@@ -1,24 +1,48 @@
-.titleArticle {
-    color: blue;
-    text-align: center;
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
 }
 
-.subtitleArticle {
-    font-weight: bold;
+.product{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid grey;
+    padding: 8px 8px;
+}
+
+.product_title{
+    margin: 0;
+}
+
+.product_description{
     font-style: italic;
-    text-decoration: underline;
-    color: green;
+    font-size: 11px;
 }
 
-.paragraph {
-    margin: 20px;
+.container{
+    background: grey;
+    width: 100vw; /* vw - viewport width - 100% * viewport */
+    height: 100%; /* vh - viewport height */
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
 }
 
-.paragraph2 {
-    font-style: italic;
+.section{
+    background: white;
 }
 
-.paragraph:first-letter, .paragraph2:first-letter {
-    font-size: 18px;
-    font-weight: bold;
+@media (min-width: 760px){
+    .section{
+        max-width: 75%;
+    }
+}
+
+.product_image{
+    width: 128px;
+    height: 128px; 
+}
+
+.product_info{
+    margin-left: 8px;
 }
